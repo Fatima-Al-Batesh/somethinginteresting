@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: crimson;
+}
+a:hover {
+  color: black;
+  text-shadow: 3px 3px 1px crimson;
+}
+header {
+  width: 100%;
+  min-height: 10vh;
+  background: linear-gradient(to right, lightblue, cadetblue);
+  font-family: "Lobster Two", cursive;
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+}
+header p {
+  color: azure;
+}
+svg {
+  padding-top: 3px;
+}
+nav {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+.chap {
+  width: 80%;
+  margin: 0 auto;
+  height: 60vh;
+  color: whitesmoke;
+  padding: 5px 10px;
+  border-radius: 2px;
+  text-shadow: 2px 2px 0px black;
+  opacity: 1;
+}
+.chap .title {
+  font-family: "Lobster Two";
+  text-align: center;
+  color: cadetblue;
+}
+.chap p {
+  text-align: start;
+  padding-top: 40px;
+  color: cornsilk;
+}
+.p1 {
+  background: url(/images/shadow.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.p2 {
+  background: url(/images/superpowers.jpg);
+  background-size: cover;
+  background-position: top;
+}
+.p3 {
+  background: url(/images/soup.jpeg);
+  background-size: cover;
+  background-position: top;
+}
+.choice {
+  width: 80%;
+  background: url(/images/choice.jpeg);
+  background-position: top;
+  background-size: cover;
+  text-align: center;
+  padding-top: 150px;
+}
